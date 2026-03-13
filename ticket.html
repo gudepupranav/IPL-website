@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Tickets</title>
+    
+
+    <style>
+        body{
+            background-color: rgb(26, 26, 161);
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .navbar{
+            background-color: black;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: yellow;
+        }
+
+        .container{
+            width: 400px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(0, 0, 0);
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 15px 0;
+            border-radius: 5px;
+            border: 1px solid #000000;
+        }
+
+        .gender, .payment {
+            margin-bottom: 15px;
+        }
+
+        button{
+            width: 100%;
+            padding: 10px;
+            background-color: aqua;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color:wheat;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>IPL Ticket Booking</h1>
+
+<nav class="navbar">
+    <a href="index.html">About IPL</a>
+    <a href="index.html">Teams</a>
+    <a href="index.html">Schedule</a>
+    <a href="index.html">Points Table</a>
+    <a href="index.html">Book Tickets</a>
+</nav>
+
+<div class="container">
+
+<form id="ticketForm">
+
+<label>Name:</label>
+<input type="text" id="name" required placeholder="Enter your Full Name">
+
+<label>Date Of Birth:</label>
+<input type="date" id="dob" required>
+
+<label>Gender:</label>
+<div class="gender">
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female
+<input type="radio" name="gender" value="Other">Other
+</div>
+
+<label>Mail ID:</label>
+<input type="email" id="email" required placeholder="Enter your email">
+
+<label>Mobile Number:</label>
+<input type="tel" id="mobile" pattern="[0-9]{10}" required placeholder="Enter your mobile number">
+
+<label>Number of Tickets:</label>
+<input type="number" id="tickets" min="1" max="10" required>
+
+<label>Payment Method:</label>
+<div class="payment">
+<input type="radio" name="payment" value="UPI">UPI
+<input type="radio" name="payment" value="Card">Card
+</div>
+
+<button type="submit">Book Tickets</button>
+
+</form>
+
+</div>
+
+
+<script src="tickets.js"></script>
+</body>
+</html>

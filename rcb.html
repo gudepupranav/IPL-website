@@ -1,0 +1,255 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCB</title>
+    <style>
+        body{
+             background-image: url(rcb.jpg);
+             background-size: cover;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             margin: 0;
+             min-height: 100vh;
+        }
+        .head h1{
+                flex: 1;
+                text-align: center;
+                color: black;
+                background-color: rgb(240, 248, 255);
+        }
+        .navbar{
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px 0;
+        }
+        .navbar a {
+                  color: white;
+                 text-decoration: none;
+                 margin: 0 20px;
+                 font-weight: bold;
+        }
+
+        .navbar a:hover {
+                 color: rgb(250, 254, 1);
+        }
+        .card{
+             margin-bottom: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             box-shadow: 0 6px 3px rgb(0, 0, 0);
+             background: rgba(128, 128, 128, 0.258);
+        }
+    </style>
+</head>
+<body>
+     <header class="head">
+        <marquee><h1>ROYAL CHALLENGERS BENGALURU</h1></marquee>
+    </header>
+     <nav class="navbar">
+        <a href="index.html">About IPL</a>
+        <a href="index.html">Teams</a>
+        <a href="index.html">Schedule</a>
+        <a href="index.html">Points Table</a>
+        <a href="index.html">Book Tickets</a>
+
+    </nav>
+
+    <section id="about" class="card about">
+        <h2>About RCB</h2>
+        <p>Royal Challengers Bengaluru, formerly Royal Challengers Bangalore, also known as RCB, are a professional Twenty20 cricket team based in Bengaluru, Karnataka, that competes in the Indian Premier League (IPL). Founded in 2008 by United Spirits, the team's home ground is M. Chinnaswamy Stadium. They won their first title in 2025. The team finished as the runners-up on three occasions: in 2009, 2011, and 2016. They have also qualified for the playoffs in ten of the eighteen seasons.
+
+        As of 2025, the team is captained by Rajat Patidar and coached by Andy Flower. The franchise has competed in the Champions League, finishing as runners-up in the 2011 season. As of 2024, RCB was valued at $117 million, making it one of the most valuable franchises.</p>
+
+    </section>
+    <section id="players" class="card players">
+        <h2>Players</h2>
+        <ul>
+            <li>Virat Kohli</li>
+  <li>Faf du Plessis</li>
+  <li>Rajat Patidar</li>
+  <li>Anuj Rawat</li>
+  <li>Dinesh Karthik</li>
+  <li>Suyash Prabhudessai</li>
+  <li>Glenn Maxwell</li>
+  <li>Cameron Green</li>
+  <li>Mahipal Lomror</li>
+  <li>Will Jacks</li>
+  <li>Mohammed Siraj</li>
+  <li>Reece Topley</li>
+  <li>Karn Sharma</li>
+  <li>Yash Dayal</li>
+  <li>Lockie Ferguson</li>
+  <li>Akash Deep</li>
+        </ul>
+    
+</body>
+</html>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RCB</title>
+
+<style>
+
+body{
+background-image:url(rcb.jpg);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+margin:0;
+min-height:100vh;
+font-family:Arial, sans-serif;
+}
+
+/* HEADER */
+
+.head{
+text-align:center;
+padding:20px;
+}
+
+.head h1{
+color:black;
+background-color:rgb(240,248,255);
+display:inline-block;
+padding:10px 20px;
+border-radius:8px;
+animation:slideDown 1.5s ease;
+}
+
+/* NAVBAR */
+
+.navbar{
+background-color:black;
+text-align:center;
+padding:10px 0;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+margin:0 20px;
+font-weight:bold;
+}
+
+.navbar a:hover{
+color:rgb(250,254,1);
+}
+
+/* CARDS */
+
+.card{
+margin:20px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 6px 3px black;
+background:rgba(128,128,128,0.25);
+animation:fadeUp 1.5s ease;
+}
+
+/* PLAYER LIST HOVER */
+
+.players li{
+margin:6px 0;
+transition:0.3s;
+}
+
+.players li:hover{
+color:yellow;
+transform:translateX(10px);
+}
+
+/* ANIMATIONS */
+
+@keyframes slideDown{
+from{
+transform:translateY(-80px);
+opacity:0;
+}
+to{
+transform:translateY(0);
+opacity:1;
+}
+}
+
+@keyframes fadeUp{
+from{
+transform:translateY(50px);
+opacity:0;
+}
+to{
+transform:translateY(0);
+opacity:1;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="head">
+<h1>ROYAL CHALLENGERS BENGALURU</h1>
+</header>
+
+<nav class="navbar">
+<a href="index.html">About IPL</a>
+<a href="index.html">Teams</a>
+<a href="index.html">Schedule</a>
+<a href="index.html">Points Table</a>
+<a href="index.html">Book Tickets</a>
+</nav>
+
+<section id="about" class="card about">
+
+<h2>About RCB</h2>
+
+<p>
+Royal Challengers Bengaluru (RCB), formerly Royal Challengers Bangalore, are a professional Twenty20 cricket team based in Bengaluru, Karnataka that competes in the Indian Premier League (IPL). Founded in 2008 by United Spirits, the team's home ground is the M. Chinnaswamy Stadium.
+</p>
+
+<p>
+RCB won their first IPL title in 2025. The team previously finished as runners-up in 2009, 2011, and 2016. They have qualified for the playoffs in several seasons and are one of the most popular IPL franchises.
+</p>
+
+<p>
+As of 2025, the team is captained by Rajat Patidar and coached by Andy Flower.
+</p>
+
+</section>
+
+<section id="players" class="card players">
+
+<h2>Players</h2>
+
+<ul>
+<li>Virat Kohli</li>
+<li>Faf du Plessis</li>
+<li>Rajat Patidar</li>
+<li>Anuj Rawat</li>
+<li>Dinesh Karthik</li>
+<li>Suyash Prabhudessai</li>
+<li>Glenn Maxwell</li>
+<li>Cameron Green</li>
+<li>Mahipal Lomror</li>
+<li>Will Jacks</li>
+<li>Mohammed Siraj</li>
+<li>Reece Topley</li>
+<li>Karn Sharma</li>
+<li>Yash Dayal</li>
+<li>Lockie Ferguson</li>
+<li>Akash Deep</li>
+</ul>
+
+</section>
+
+</body>
+</html>

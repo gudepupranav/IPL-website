@@ -1,0 +1,242 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RR</title>
+    <style>
+        body{
+             background-image: url(rr.jpg);
+             background-size: cover;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             margin: 0;
+             min-height: 100vh;
+        }
+        .head h1{
+                flex: 1;
+                text-align: center;
+                color: black;
+                background-color: rgb(240, 248, 255);
+        }
+        .navbar{
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px 0;
+        }
+        .navbar a {
+                  color: white;
+                 text-decoration: none;
+                 margin: 0 20px;
+                 font-weight: bold;
+        }
+
+        .navbar a:hover {
+                 color: rgb(250, 254, 1);
+        }
+        .card{
+             margin-bottom: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             box-shadow: 0 6px 3px rgb(0, 0, 0);
+             background: rgba(128, 128, 128, 0.258);
+        }
+    </style>
+</head>
+<body>
+     <header class="head">
+        <marquee><h1>RAJASTHAN ROYALS</h1></marquee>
+    </header>
+    <nav class="navbar">
+        <a href="index.html">About IPL</a>
+        <a href="index.html">Teams</a>
+        <a href="index.html">Schedule</a>
+        <a href="index.html">Points Table</a>
+        <a href="index.html">Book Tickets</a>
+
+    </nav>
+
+    <section id="about" class="card about">
+        <h2>About RR</h2>
+        <p>The Rajasthan Royals, also known as RR, are a professional Twenty20 cricket team based in Jaipur, Rajasthan, that competes in the Indian Premier League (IPL). Founded in 2008 as one of the initial eight franchises, the team is owned by Manoj Badale and The Royals Sports Group.The Royals team is based at the Sawai Mansingh Stadium in Jaipur. It plays its home matches at Sawai Mansingh Stadium and at Assam Cricket Association Stadium, Guwahati.</p>
+
+    </section>
+    <section id="players" class="card players">
+        <h2>Players</h2>
+        <ul>
+            <li>Sanju Samson</li>
+  <li>Jos Buttler</li>
+  <li>Yashasvi Jaiswal</li>
+  <li>Shimron Hetmyer</li>
+  <li>Dhruv Jurel</li>
+  <li>Riyan Parag</li>
+  <li>Rovman Powell</li>
+  <li>Yuzvendra Chahal</li>
+  <li>Trent Boult</li>
+  <li>Avesh Khan</li>
+  <li>Kuldeep Sen</li>
+  <li>Sandeep Sharma</li>
+  <li>Nandre Burger</li>
+        </ul>
+    
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RR</title>
+
+<style>
+
+body{
+background-image:url(rr.jpg);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+margin:0;
+min-height:100vh;
+font-family:Arial, sans-serif;
+}
+
+/* HEADER */
+
+.head{
+text-align:center;
+padding:20px;
+}
+
+.head h1{
+color:black;
+background-color:rgb(240,248,255);
+display:inline-block;
+padding:10px 20px;
+border-radius:8px;
+animation:slideDown 1.5s ease;
+}
+
+/* NAVBAR */
+
+.navbar{
+background-color:black;
+text-align:center;
+padding:10px 0;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+margin:0 20px;
+font-weight:bold;
+}
+
+.navbar a:hover{
+color:rgb(250,254,1);
+}
+
+/* CARDS */
+
+.card{
+margin:20px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 6px 3px black;
+background:rgba(128,128,128,0.25);
+animation:fadeUp 1.5s ease;
+}
+
+/* PLAYER HOVER */
+
+.players li{
+margin:6px 0;
+transition:0.3s;
+}
+
+.players li:hover{
+color:yellow;
+transform:translateX(10px);
+}
+
+/* ANIMATIONS */
+
+@keyframes slideDown{
+from{
+transform:translateY(-80px);
+opacity:0;
+}
+to{
+transform:translateY(0);
+opacity:1;
+}
+}
+
+@keyframes fadeUp{
+from{
+transform:translateY(50px);
+opacity:0;
+}
+to{
+transform:translateY(0);
+opacity:1;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="head">
+<h1>RAJASTHAN ROYALS</h1>
+</header>
+
+<nav class="navbar">
+<a href="index.html">About IPL</a>
+<a href="index.html">Teams</a>
+<a href="index.html">Schedule</a>
+<a href="index.html">Points Table</a>
+<a href="index.html">Book Tickets</a>
+</nav>
+
+<section id="about" class="card about">
+
+<h2>About RR</h2>
+
+<p>
+The Rajasthan Royals (RR) are a professional Twenty20 cricket team based in Jaipur, Rajasthan that competes in the Indian Premier League (IPL). Founded in 2008 as one of the original eight franchises, the team is owned by Manoj Badale and The Royals Sports Group.
+</p>
+
+<p>
+The team plays its home matches at the Sawai Mansingh Stadium in Jaipur and also at the Assam Cricket Association Stadium in Guwahati.
+</p>
+
+</section>
+
+<section id="players" class="card players">
+
+<h2>Players</h2>
+
+<ul>
+<li>Sanju Samson</li>
+<li>Jos Buttler</li>
+<li>Yashasvi Jaiswal</li>
+<li>Shimron Hetmyer</li>
+<li>Dhruv Jurel</li>
+<li>Riyan Parag</li>
+<li>Rovman Powell</li>
+<li>Yuzvendra Chahal</li>
+<li>Trent Boult</li>
+<li>Avesh Khan</li>
+<li>Kuldeep Sen</li>
+<li>Sandeep Sharma</li>
+<li>Nandre Burger</li>
+</ul>
+
+</section>
+
+</body>
+</html>

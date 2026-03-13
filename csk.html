@@ -1,0 +1,290 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSK</title>
+    <style>
+        body{
+             background-image: url(csk.jpg);
+             background-size: cover;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             margin: 0;
+             min-height: 100vh;
+        }
+        .head h1{
+                flex: 1;
+                text-align: center;
+                color: black;
+                background-color: rgb(240, 248, 255);
+        }
+        .navbar{
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+        .card{
+             margin-bottom: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             box-shadow: 0 6px 3px rgb(0, 0, 0);
+             background: rgba(128, 128, 128, 0.258);
+        }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <marquee><h1>CHENNAI SUPER KINGS</h1></marquee>
+    </header>
+    
+     <nav class="navbar">
+        <a href="index.html">About IPL</a>
+        <a href="index.html">Teams</a>
+        <a href="index.html">Schedule</a>
+        <a href="index.html">Points Table</a>
+        <a href="index.html">Book Tickets</a>
+
+    </nav>
+
+    <section id="about" class="card about">
+        <h2>About CSK</h2>
+        <p>The Chennai Super Kings, also known as CSK, are a professional Twenty20 cricket team based in Chennai, Tamil Nadu, that competes in the Indian Premier League (IPL). The team was one of the eight debut franchises when the league was established in 2008. The team plays its home matches at the M. A. Chidambaram Stadium and is owned by Chennai Super Kings Cricket.
+
+        The Super Kings are the joint-most successful IPL franchise, along with Mumbai Indians, having won five IPL titles each. It has also appeared in ten finals and qualified for the playoff stages 12 times, the most amongst the IPL teams. The franchise has also won the Champions League Twenty20 twice in 2010 and 2014. The team is currently captained by Ruturaj Gaikwad and coached by Stephen Fleming.</p>
+
+    </section>
+    <section id="players" class="card players">
+        <h2>Players</h2>
+        <ul>
+            <li>MS Dhoni</li>
+            <li>Ruturaj Gaikwad</li>
+            <li>Devon Conway</li>
+            <li>Ajinkya Rahane</li>
+            <li>Sameer Rizvi </li>
+            <li>Shaik Rasheed </li>
+            <li>Aravelly Avanish </li>
+            <li>Ravindra Jadeja </li>
+            <li>Shivam Dube</li> 
+            <li>Moeen Ali </li>
+            <li>Mitchell Santne</li>
+            <li>Nishant Sindhu </li>
+            <li>Rachin Ravindra </li>
+            <li>Deepak Chahar </li>
+            <li>Tushar Deshpande </li>
+            <li>atheesha Pathirana </li>
+            <li>Maheesh Theekshana </li>
+            <li>Mukesh Choudhary </li>
+            <li>Simarjeet Singh </li>
+            <li>Rajvardhan Hangargekar</li>
+        </ul>
+
+    </section>
+    
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSK</title>
+
+<style>
+
+body{
+    background-image: url(csk.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    min-height:100vh;
+}
+
+/* HEADER */
+
+.head{
+    text-align:center;
+    padding:20px;
+}
+
+/* HEADING ANIMATION */
+
+.head h1{
+    text-align:center;
+    color:black;
+    background-color:rgba(240,248,255,0.7);
+    padding:10px;
+    border-radius:8px;
+
+    animation: slideDown 2s ease;
+}
+
+/* SLIDE ANIMATION */
+
+@keyframes slideDown{
+    from{
+        transform:translateY(-100px);
+        opacity:0;
+    }
+
+    to{
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    background-color:black;
+    text-align:center;
+    padding:10px 0;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.navbar a:hover{
+    color:yellow;
+}
+
+
+/* CARD */
+
+.card{
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 6px 8px black;
+    background:rgba(128,128,128,0.3);
+
+    animation: fadeUp 1.5s ease;
+}
+
+.about{
+    color:white;
+}
+
+
+/* SECTION FADE ANIMATION */
+
+@keyframes fadeUp{
+    from{
+        transform:translateY(50px);
+        opacity:0;
+    }
+
+    to{
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+
+
+/* PLAYER LIST */
+
+.players ul{
+    color:white;
+}
+
+.players li{
+    padding:5px;
+    transition:0.3s;
+}
+
+/* PLAYER HOVER EFFECT */
+
+.players li:hover{
+    transform:translateX(10px);
+    color:yellow;
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="head">
+<h1>CHENNAI SUPER KINGS</h1>
+</header>
+
+
+<nav class="navbar">
+<a href="index.html">About IPL</a>
+<a href="index.html">Teams</a>
+<a href="index.html">Schedule</a>
+<a href="index.html">Points Table</a>
+<a href="index.html">Book Tickets</a>
+</nav>
+
+
+<section id="about" class="card about">
+
+<h2>About CSK</h2>
+
+<p>
+The Chennai Super Kings, also known as CSK, are a professional Twenty20 cricket team based in Chennai,
+Tamil Nadu, that competes in the Indian Premier League (IPL). The team was one of the eight debut
+franchises when the league was established in 2008. The team plays its home matches at the
+M. A. Chidambaram Stadium and is owned by Chennai Super Kings Cricket.
+
+The Super Kings are the joint-most successful IPL franchise, along with Mumbai Indians,
+having won five IPL titles each. It has also appeared in ten finals and qualified for
+the playoff stages 12 times, the most amongst the IPL teams.
+</p>
+
+</section>
+
+
+<section id="players" class="card players">
+
+<h2>Players</h2>
+
+<ul>
+<li>MS Dhoni</li>
+<li>Ruturaj Gaikwad</li>
+<li>Devon Conway</li>
+<li>Ajinkya Rahane</li>
+<li>Sameer Rizvi</li>
+<li>Shaik Rasheed</li>
+<li>Aravelly Avanish</li>
+<li>Ravindra Jadeja</li>
+<li>Shivam Dube</li>
+<li>Moeen Ali</li>
+<li>Mitchell Santner</li>
+<li>Nishant Sindhu</li>
+<li>Rachin Ravindra</li>
+<li>Deepak Chahar</li>
+<li>Tushar Deshpande</li>
+<li>Matheesha Pathirana</li>
+<li>Maheesh Theekshana</li>
+<li>Mukesh Choudhary</li>
+<li>Simarjeet Singh</li>
+<li>Rajvardhan Hangargekar</li>
+</ul>
+
+</section>
+
+</body>
+</html>

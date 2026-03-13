@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 400px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 15px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .gender, .payment {
+            margin-bottom: 15px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Ticket Booking Form</h2>
+
+    <form>
+
+        <label>Full Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required>
+
+        <label>Gender:</label>
+        <div class="gender">
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+        </div>
+
+        <label>Email ID:</label>
+        <input type="email" name="email" required>
+
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile" pattern="[0-9]{10}" required>
+
+        <label>Number of Tickets:</label>
+        <input type="number" name="tickets" min="1" max="10" required>
+
+        <label>Payment Method:</label>
+        <div class="payment">
+            <input type="radio" name="payment" value="UPI"> UPI
+            <input type="radio" name="payment" value="Card"> Card
+        </div>
+
+        <button type="submit">Book Tickets</button>
+
+    </form>
+</div>
+
+</body>
+</html>

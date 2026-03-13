@@ -1,0 +1,359 @@
+/*body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(26, 26, 161);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh;
+}
+.logo, .trophy{
+    position: absolute;
+    top: 0;
+    width: 20%;
+    height: 20%;
+}
+.trophy{
+   left: 75px;
+   width: 10%;
+
+}
+.logo{
+    right: 75px;
+}
+
+
+
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+}
+
+.top-header h1 {
+    flex: 1;
+    text-align: center;
+    color: black;
+}
+.card{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 3px rgb(0, 0, 0);
+    background: rgb(128, 128, 128);
+}
+
+
+
+#teams a{
+    color: black;
+    
+}
+.navbar{
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: yellow;
+}*/
+
+/*
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg,#0f1c8c,#1e3cff);
+    min-height: 100vh;
+}
+
+
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    background: linear-gradient(to right,#0b0b4f,#1c1ccf);
+    color: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+
+.top-header h1{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+
+.logo,.trophy{
+    position: absolute;
+    top: 10px;
+    width: 80px;
+}
+
+.logo{
+    right: 30px;
+}
+
+.trophy{
+    left: 30px;
+}
+
+
+.navbar{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar a:hover{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+    padding-bottom: 5px;
+}
+
+
+.card{
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+
+.card h2{
+    color: #0b0b4f;
+    border-bottom: 2px solid #0b0b4f;
+    padding-bottom: 8px;
+}
+
+
+#teams ul{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#teams li{
+    background: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#teams li:hover{
+    background: orange;
+    transform: scale(1.05);
+}
+
+#teams a{
+    text-decoration: none;
+}
+
+
+.card a{
+    color: #1c1ccf;
+    font-weight: bold;
+}
+
+.card a:hover{
+    color: orange;
+}
+
+.team-box{
+background:black;
+color:white;
+padding:10px;
+border-radius:6px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.team-box:hover{
+background:orange;
+transform:scale(1.05);
+}*/
+
+/* BODY */
+
+body{
+    margin:0;
+    font-family:'Segoe UI', Arial, sans-serif;
+    background:linear-gradient(135deg,#0f1c8c,#1e3cff);
+    min-height:100vh;
+}
+
+
+/* HEADER */
+
+.top-header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    padding:20px;
+    background:linear-gradient(to right,#0b0b4f,#1c1ccf);
+    color:white;
+    box-shadow:0 3px 10px rgba(0,0,0,0.5);
+}
+
+.top-header h1{
+    font-size:36px;
+    letter-spacing:2px;
+    margin:0;
+}
+
+
+/* LOGO AND TROPHY */
+
+.logo,
+.trophy{
+    position:absolute;
+    top:10px;
+    width:80px;
+}
+
+.logo{
+    right:30px;
+}
+
+.trophy{
+    left:30px;
+}
+
+
+/* NAVBAR (Bootstrap navbar customization) */
+
+.navbar{
+    padding:15px;
+}
+
+.navbar-nav .nav-link{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    margin:0 10px;
+    transition:0.3s;
+}
+
+.navbar-nav .nav-link:hover{
+    color:yellow;
+    border-bottom:2px solid yellow;
+}
+
+
+/* CARD SECTIONS */
+
+.card{
+    margin-top:30px;
+    padding:25px;
+    border-radius:12px;
+    background:white;
+    box-shadow:0 6px 15px rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.02);
+}
+
+
+/* SECTION HEADINGS */
+
+.card h2{
+    color:#0b0b4f;
+    border-bottom:2px solid #0b0b4f;
+    padding-bottom:8px;
+    margin-bottom:15px;
+}
+
+
+/* TEXT */
+
+.card p{
+    font-size:16px;
+    line-height:1.6;
+}
+
+
+/* LINKS */
+
+.card a{
+    color:#1c1ccf;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.card a:hover{
+    color:orange;
+}
+
+
+/* TEAM BOXES (Bootstrap grid items) */
+
+.team-box{
+    background:black;
+    color:white;
+    padding:12px;
+    border-radius:6px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.team-box:hover{
+    background:orange;
+    transform:scale(1.05);
+}
+
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:768px){
+
+.top-header h1{
+    font-size:24px;
+}
+
+.logo,
+.trophy{
+    width:50px;
+}
+
+.card{
+    padding:20px;
+}
+
+}

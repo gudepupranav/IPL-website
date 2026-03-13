@@ -1,0 +1,278 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRH</title>
+    <style>
+        body{
+             background-image: url(srh2.jpg);
+             background-size: cover;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             margin: 0;
+             min-height: 100vh;
+            }
+
+        .head h1{
+                 flex: 1;
+                 text-align: center;
+                 color: black;
+                 background-color: rgba(240, 248, 255, 0.505);
+                }
+        .navbar{
+                background-color: black;
+                text-align: center;
+                padding: 10px 0;
+    
+                }
+        .navbar a {
+                color: white;
+                text-decoration: none;
+                margin: 0 20px;
+                font-weight: bold;
+                }
+
+.navbar a:hover {
+    color: yellow;
+}
+
+
+        .card{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 3px rgb(0, 0, 0);
+    background: rgba(128, 128, 128, 0.258);
+}
+.about{
+    color: white;
+
+}
+    </style>
+</head>
+<body>
+    <header class="head">
+    <marquee><h1>SUNRISERS HYDERABAD </h1></marquee> 
+    </header>
+
+     <nav class="navbar">
+        <a href="index.html">About IPL</a>
+        <a href="index.html">Teams</a>
+        <a href="index.html">Schedule</a>
+        <a href="index.html">Points Table</a>
+        <a href="index.html">Book Tickets</a>
+
+    </nav>
+
+
+    <section id="about" class="card about">
+        <h2>About SRH</h2>
+        <p>Sunrisers Hyderabad, is a professional Twenty20 cricket team based in Hyderabad, Telangana, that competes in the Indian Premier League (IPL). The franchise is owned by Kalanithi Maran of Sun Group and was founded in 2013 after the Hyderabad-based Deccan Chargers were terminated by the IPL. The team is currently coached by Daniel Vettori and captained by Pat Cummins. Their home ground is the Rajiv Gandhi International Cricket Stadium in Hyderabad, which has a capacity of 39,200.</p>
+    </section>
+
+    <section id="players" class="card players">
+        <h2>Players</h2>
+       <ul>
+        <li>Pat Cummins (C)</li>
+        <li>Heinrich Klaasen</li>
+        <li>Travis Head</li>
+        <li>Abhishek Sharma</li>
+        <li>Ishan Kishan</li>
+        <li>Liam Livingstone</li>
+        <li>Nitish Kumar Reddy</li>
+        <li>Harshal Patel</li>
+        <li>Jack Edwards</li>
+        <li>Kamindu Mendis</li>
+        <li>Brydon Carse</li>
+        <li>Eshan Malinga</li>
+        <li>Jaydev Unadkat</li>
+        <li>Shivam Mavi</li>
+        
+       </ul>
+    </section>
+    
+
+    
+</body>
+</html>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SRH</title>
+
+<style>
+
+body{
+    background-image: url(srh2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    min-height:100vh;
+}
+
+
+/* HEADER */
+
+.head{
+    text-align:center;
+    padding:20px;
+}
+
+/* ANIMATED HEADING */
+
+.head h1{
+    color:black;
+    background-color:rgba(240,248,255,0.6);
+    padding:10px;
+    border-radius:8px;
+
+    animation: slideDown 2s ease;
+}
+
+/* SLIDE ANIMATION */
+
+@keyframes slideDown{
+    from{
+        transform:translateY(-100px);
+        opacity:0;
+    }
+    to{
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    background-color:black;
+    text-align:center;
+    padding:10px 0;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.navbar a:hover{
+    color:yellow;
+}
+
+
+/* CARDS */
+
+.card{
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 6px 8px black;
+    background:rgba(128,128,128,0.3);
+
+    animation: fadeUp 1.5s ease;
+}
+
+.about{
+    color:white;
+}
+
+
+/* FADE ANIMATION */
+
+@keyframes fadeUp{
+    from{
+        transform:translateY(50px);
+        opacity:0;
+    }
+
+    to{
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+
+
+/* PLAYER LIST ANIMATION */
+
+.players ul{
+    color:white;
+}
+
+.players li{
+    padding:5px;
+    transition:0.3s;
+}
+
+.players li:hover{
+    transform:translateX(10px);
+    color:orange;
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="head">
+<h1>SUNRISERS HYDERABAD</h1>
+</header>
+
+<nav class="navbar">
+<a href="index.html">About IPL</a>
+<a href="index.html">Teams</a>
+<a href="index.html">Schedule</a>
+<a href="index.html">Points Table</a>
+<a href="index.html">Book Tickets</a>
+</nav>
+
+
+<section id="about" class="card about">
+<h2>About SRH</h2>
+
+<p>
+Sunrisers Hyderabad is a professional Twenty20 cricket team based in Hyderabad, Telangana,
+that competes in the Indian Premier League (IPL). The franchise is owned by Kalanithi Maran
+of Sun Group and was founded in 2013 after the Hyderabad-based Deccan Chargers were terminated
+by the IPL.
+</p>
+
+</section>
+
+
+<section id="players" class="card players">
+
+<h2>Players</h2>
+
+<ul>
+<li>Pat Cummins (C)</li>
+<li>Heinrich Klaasen</li>
+<li>Travis Head</li>
+<li>Abhishek Sharma</li>
+<li>Ishan Kishan</li>
+<li>Liam Livingstone</li>
+<li>Nitish Kumar Reddy</li>
+<li>Harshal Patel</li>
+<li>Jack Edwards</li>
+<li>Kamindu Mendis</li>
+<li>Brydon Carse</li>
+<li>Eshan Malinga</li>
+<li>Jaydev Unadkat</li>
+<li>Shivam Mavi</li>
+</ul>
+
+</section>
+
+</body>
+</html>

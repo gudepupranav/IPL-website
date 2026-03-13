@@ -1,0 +1,280 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI</title>
+     <style>
+        body{
+             background-image: url(mi.jpg);
+             background-size: cover;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             margin: 0;
+             min-height: 100vh;
+        }
+        .head h1{
+                flex: 1;
+                text-align: center;
+                color: black;
+                background-color: rgb(240, 248, 255);
+        }
+        .navbar{
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px 0;
+        }
+        .navbar a {
+                  color: white;
+                 text-decoration: none;
+                 margin: 0 20px;
+                 font-weight: bold;
+        }
+
+        .navbar a:hover {
+                 color: rgb(250, 254, 1);
+        }
+        .card{
+             margin-bottom: 20px;
+             padding: 20px;
+             border-radius: 10px;
+             box-shadow: 0 6px 3px rgb(0, 0, 0);
+             background: rgba(128, 128, 128, 0.258);
+        }
+    </style>
+</head>
+<body>
+     <header class="head">
+        <marquee><h1>MUMBAI INDIANS</h1></marquee>
+    </header>
+    
+     <nav class="navbar">
+        <a href="index.html">About IPL</a>
+        <a href="index.html">Teams</a>
+        <a href="index.html">Schedule</a>
+        <a href="index.html">Points Table</a>
+        <a href="index.html">Book Tickets</a>
+
+    </nav>
+
+    <section id="about" class="card about">
+        <h2>About MI</h2>
+        <p>The Mumbai Indians are a professional Twenty20 cricket team based in Mumbai, Maharashtra, that competes in the Indian Premier League (IPL) and the WPL. The Indians were founded in 2008 and are owned by India's largest conglomerate, Reliance Industries, through its wholly - owned subsidiary, Indiawin Sports. Since its establishment, the team has primarily played its home matches at the 33,108-capacity Wankhede Stadium. It is one of the most successful teams in the IPL.</p>
+
+    </section>
+    <section id="players" class="card players">
+        <h2>Players</h2>
+        <ul>
+            <li>Rohit Sharma</li>
+  <li>Ishan Kishan</li>
+  <li>Suryakumar Yadav</li>
+  <li>Tilak Varma</li>
+  <li>Dewald Brevis</li>
+  <li>Tim David</li>
+  <li>Hardik Pandya</li>
+  <li>Romario Shepherd</li>
+  <li>Nehal Wadhera</li>
+  <li>Shams Mulani</li>
+  <li>Jasprit Bumrah</li>
+  <li>Gerald Coetzee</li>
+  <li>Piyush Chawla</li>
+  <li>Akash Madhwal</li>
+  <li>Jason Behrendorff</li>
+  <li>Luke Wood</li>
+  <li>Kumar Kartikeya</li>
+        </ul>
+
+    </section>
+    
+    
+    
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MI</title>
+
+<style>
+
+body{
+    background-image: url(mi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    min-height:100vh;
+            }
+
+
+
+.head{
+    text-align:center;
+    padding:20px;
+}
+
+
+
+.head h1{
+    text-align:center;
+    color:black;
+    background-color:rgba(240,248,255,0.7);
+    padding:10px;
+    border-radius:8px;
+
+    animation: slideDown 2s ease;
+}
+
+
+
+            @keyframes slideDown{
+    from{
+        transform:translateY(-100px);
+        opacity:0;
+    }
+
+    to{
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+
+
+
+
+.navbar{
+                              background-color:black;
+    text-align:center;
+    padding:10px 0;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.navbar a:hover{
+    color:yellow;
+}
+
+
+
+
+.card{
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 6px 8px black;
+    background:rgba(128,128,128,0.3);
+
+    animation: fadeUp 1.5s ease;
+}
+
+.about{
+    color:white;
+}
+
+
+
+
+@keyframes fadeUp{
+    from{
+        transform:translateY(50px);
+        opacity:0;
+    }
+
+    to{
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+
+
+
+
+.players ul{
+    color:white;
+}
+
+.players li{
+    padding:5px;
+    transition:0.3s;
+}
+
+
+
+.players li:hover{
+    transform:translateX(10px);
+    color:yellow;
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="head">
+<h1>MUMBAI INDIANS</h1>
+</header>
+
+
+<nav class="navbar">
+<a href="index.html">About IPL</a>
+<a href="index.html">Teams</a>
+<a href="index.html">Schedule</a>
+<a href="index.html">Points Table</a>
+<a href="index.html">Book Tickets</a>
+</nav>
+
+
+<section id="about" class="card about">
+
+<h2>About MI</h2>
+
+<p>
+The Mumbai Indians are a professional Twenty20 cricket team based in Mumbai, Maharashtra,
+that competes in the Indian Premier League (IPL). The team was founded in 2008 and is owned
+by Reliance Industries through its subsidiary Indiawin Sports. The team plays its home
+matches at the Wankhede Stadium. Mumbai Indians is one of the most successful teams in
+IPL history.
+</p>
+
+</section>
+
+
+<section id="players" class="card players">
+
+<h2>Players</h2>
+
+<ul>
+<li>Rohit Sharma</li>
+<li>Ishan Kishan</li>
+<li>Suryakumar Yadav</li>
+<li>Tilak Varma</li>
+<li>Dewald Brevis</li>
+<li>Tim David</li>
+<li>Hardik Pandya</li>
+<li>Romario Shepherd</li>
+<li>Nehal Wadhera</li>
+<li>Shams Mulani</li>
+<li>Jasprit Bumrah</li>
+<li>Gerald Coetzee</li>
+<li>Piyush Chawla</li>
+<li>Akash Madhwal</li>
+<li>Jason Behrendorff</li>
+<li>Luke Wood</li>
+<li>Kumar Kartikeya</li>
+</ul>
+
+</section>
+
+</body>
+</html>
